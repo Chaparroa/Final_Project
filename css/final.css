@@ -44,12 +44,12 @@ footer a {
 .transit h2 {
 	border-bottom:2px solid black;
 }
-.transit ul{
+.transit {
 	list-style-type:none;
 	margin:0;
 	padding:0;
 }
-.transit li {
+.transit ul li {
 	line-height:30px;
 }
 /*.transit li a:hover {
