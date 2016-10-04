@@ -1,6 +1,6 @@
 $(document).ready(function() {
 //nav hamburger js
-
+	//console.log(goldStations);
 // dropdown toggle js
 	//hide the list of Transit lines
 	$(".transit").hide();
