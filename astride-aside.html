@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Metro Art</title>
+    <title>Metro Art - Astride Aside</title>
     <!-- add CSS here -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
@@ -12,32 +12,32 @@
 <body>
 	<header>
 		<div id="logo">
-			<h1>Metro Art</h1>
+			<img src="images/logo_metro_2.png">
+		</div>
+		<div class="navTitle">
+		<p>Select Station:</p>
 		</div>
 		<nav>
 			<ul>
-				<li>
-					<span class="line"></span>
-					<span class="line"></span>
-					<span class="line"></span>
-				</li>
-				<li>Link 1</li>
-				<li>Link 2</li>
-				<li>Link 3</li>
-				<li>Link 4</li>
+				<li><div class="line"></div><div class="line"></div><div class="line"></div></li>
+				<li></span><a href="gold-line.html">Red Line</a></li>
+				<li><a href="gold-line.html">Gold Line</a></li>	
+				<li><a href="gold-line.html">Blue Line</a></li>			
+				<li><a href="gold-line.html">Green Line</a></li>			
+				<li><a href="gold-line.html">Purple Line</a></li>
+				<li><a href="gold-line.html">Expo Line</a></li>			
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<h1>Artwork Details</h1>
+		<div id="hero">
+			<img src="images/astride_2.jpg">
+		</div>
 		<article class="artworkDetails">
-			<div class="hero">
-				<img src="images/astride_2.jpg">
-			</div>
 			<h2>Astride Aside, 2002</h2>
 			<div class="location">
-				<p>South pasadena station<br />
-					<a href="#">Map</a>
+				<p><span class="goldLine"></span>South pasadena station<br />
+					<a href="https://www.google.com/maps/place/34%C2%B006'56.2%22N+118%C2%B009'26.0%22W/@34.115607,-118.1577712,19z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d34.115607!4d-118.157224">Map</a>
 				</p>
 			</div>
 			<h3>Project Description</h3>
@@ -54,5 +54,7 @@
 	</footer>
 	<!-- add javascript here -->
 	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/metro.js"></script>
+	<script src="js/stations_final.js"></script>
 </body>
 </html>
